@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    margin: 3vh 8vw;
+}
+header{
+    box-shadow: 0 1px 8px grey;
+    position: fixed;
+    width: 100vw;
+}
+#navbar{
+    height: 12vh;
+    background-color:rgb(255, 255, 255);
+}
+
+#nav-anchors{
+    display: inline-block;
+    float: right;
+    margin-top: 4vh;
+    margin-right: 10vw;
+
+}
+.navElements:hover{
+    text-decoration: underline;
+}
+
+.navElements,
+.sec2-elements{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin:15px;
+    color: black;
+
+}
+
+
+#sec1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffbc0d;
+}
+
+.leftToBurger{
+    height: 100vh;
+    width: 50vw;
+    display: inline-block;
+    float: left;
+
+}
+
+.burger-title{
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 40px;
+
+}
+
+.imageDiv{
+    height: 100vh;
+    width: 50vw;
+    display: inline-block;
+    float: right;
+    background-image: url("https://mcdindia.com/wp-content/uploads/2022/01/img-makhani-burger-2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.sec1-prev{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid red;
+    background-color: #ffbc0d;
+    color:red;
+    cursor: pointer;
+
+}
+.sec1-next{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    color:red;
+    cursor: pointer;
+
+
+}
+
+.sec1-next:hover{
+    color: white;
+    background-color: red;
+}
+.sec1-prev:hover{
+    color: white;
+    background-color: red;
+}
+
+#sec2{
+    height: 100vh;
+}
+
+.sec2-anchors{
+    margin-left: 10vw;
+    margin-top: 15vh;
+    margin-bottom: 6vh;
+}
+
+span {
+    display: inline-block;
+}
+
+.sec2-elements{
+    text-decoration: none;
+
+    
+}
+.sec2-elements:hover{
+    text-decoration: underline;
+}
+
+.sec2-desc{
+    border: 1px solid red;
+    height: 70vh;
+    width: 30vw;
+    margin-left: 10vw;
+    display: inline-block;
+    float: left; 
+}
+.sec2-desc h1{
+    margin-bottom: 20px;
+   
+}
+
+.sec2-image{
+    width: 50vw;
+    height: 100vh;
+    background-image: url("https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: right;
+}
