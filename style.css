@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "speedee", sans-serif;
+    cursor: url("https://mcdindia.com/wp-content/uploads/2020/11/mc-cursor-2.png"),auto
 }
-
+.bg-yellow{
+  background-color: #ffbc0d;
+}
 #logo{
     margin: 3vh 8vw;
 }
@@ -52,10 +56,16 @@ header{
 }
 
 .burger-title{
-    text-align: center;
+    margin-left: 10vw;
     margin-top: 40vh;
-    font-size: 40px;
+    font-size: 50px;
+    color:red;
 
+}
+
+.col-red{
+  color: transparent;
+  -webkit-text-stroke: 1.4px #e21f03;
 }
 
 .imageDiv{
@@ -70,19 +80,19 @@ header{
 }
 
 .sec1-prev{
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    border: 2px solid red;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border: 3px solid red;
     background-color: #ffbc0d;
     color:red;
     cursor: pointer;
 
 }
 .sec1-next{
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
     border: none;
     background-color: white;
     color:red;
@@ -98,6 +108,11 @@ header{
 .sec1-prev:hover{
     color: white;
     background-color: red;
+    height: 3;
+    width: 6;
+}
+.arrow{
+
 }
 
 #sec2{
@@ -117,25 +132,63 @@ span {
 .sec2-elements{
     text-decoration: none;
 
-    
+
 }
 .sec2-elements:hover{
     text-decoration: underline;
 }
 
 .sec2-desc{
-    border: 1px solid red;
     height: 70vh;
-    width: 30vw;
-    margin-left: 10vw;
+    width: 40vw;
+    margin-left: 5rem;
     display: inline-block;
-    float: left; 
+    float: left;
 }
-.sec2-desc h1{
+#sec2-heading{
     margin-bottom: 20px;
-   
+    text-align: center;
+    background-color: #ffbc0d;
+    height: 10vh;
+    width: 42vw;
+    border-radius: 0 0 80px 0;
+
 }
 
+#sec2-heading span{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+}
+#sub-head{
+    margin: 1.5rem 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+#sec2-para{
+    line-height:20px;
+}
+#sec2-para span{
+    margin: 1.5rem 0;
+}
+#food-contents{
+    margin-top: 30px;
+    display: inline-block;
+    width: 25rem;
+    height: 5rem;
+    background-color: #db0007;
+    color:white;
+    border-radius: 50px;
+
+
+}
+.content-ing{
+    margin-left: 75px;
+}
+.content-ing tr td, .content-ing tr th{
+    padding: 10px 10px 5px 5px;
+}
 .sec2-image{
     width: 50vw;
     height: 100vh;
@@ -143,4 +196,204 @@ span {
     background-repeat: no-repeat;
     display: inline-block;
     float: right;
+}
+#sec3{
+    margin-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items:flex-start;
+    background-image: url("https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x.jpg");
+}
+#happy-img{
+
+    margin-left: 85px;
+
+}
+.left-container{
+  /* display: inline-block; */
+  float: left;
+  width: 25vw;
+  margin-left: 50px;
+}
+.video-div{
+  margin-left: 40px;
+}
+.video-div video{
+  border-radius: 24px;
+  width: 214px;
+}
+.right-container{
+  margin-top: 60px;
+  height: 100vh;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  grid-gap: 2px;
+}
+
+.lower-imgs{
+  margin-left: 17%;
+  margin-top: 30px;
+}
+
+.img-container{
+  display: inline-block;
+  font-weight: bold;
+  height: 274px;
+  width: 274px;
+  float: left;
+  margin: 20px;
+  text-align: center;
+}
+
+.img-container img{
+  height: 234px;
+  width: 234px;
+
+}
+
+.img-container p{
+  font-size: 17px;
+}
+
+.red{
+  color: red;
+}
+.yellow{
+  color:#ffbc0d;
+}
+
+#sec4{
+  margin-top: 40px;
+  height: 110vh;
+  background-color: #ffbc0d;
+  display: flex;
+  align-items: flex-start;
+
+}
+.sec4-left-div{
+  height: 102vh;
+  width: 45vw;
+  background-color: white;
+  padding: 30px;
+}
+.spacing{
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.strong{
+  color: red;
+  font-size: 20px;
+}
+.sec4-heading{
+  font-weight:bolder;
+  font-size: 40px;
+
+}
+.sec3-content{
+    margin-top: 30px;
+    font-size:20px;
+}
+
+.sec4-right-div{
+  width: 45vw;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30vh;
+}
+
+.sec4-btn1, .sec4-btn2{
+  height: 50px;
+  width: 50px;
+}
+
+.sec4-right-div div{
+  margin: 20px;
+  height: 45vh;
+}
+.sec4-imgs{
+  height: 200px;
+  width: 150px;
+}
+.second-row{
+  margin-top: 30px;
+}
+#sec5{
+  height: 100vh;
+  background-image: url("./happy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.drop-head{
+  display: inline-block;
+  margin-left: 50px;
+margin-top: 170px;
+}
+
+.selector{
+      margin-top: 15px;
+  margin-left: 40px;
+
+}
+
+.selector select{
+  padding: 14px 80px;
+  font-size: 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.sec5-leftdiv{
+  height: 100vh;
+  width: 30vw;
+  background-color: white;
+}
+
+#sec6{
+  height: 100vh;
+}
+.sec6-div1{
+  margin-top: 100px;
+  margin-left: 55px;
+}
+#sec6 p{
+  margin-left: 100px;
+margin-top: 20px;
+width: 550px;
+}
+.imgdiv{
+  margin-bottom: 20px;
+}
+.img-heading{
+  margin-left: 100px;
+margin-bottom: 20px;
+font-weight: bolder;
+font-size: 25px;
+}
+
+.img-heading strong{
+  margin: 20px 0 20px 0;
+}
+
+.sec6-btn{
+  height: 60px;
+width: 250px;
+border-radius: 40px;
+background-color: red;
+border: none;
+font-weight: bold;
+font-size: 15px;
+color: white;
+margin-left: 95px;
+    margin-top: 70px;
+}
+.sec6-btn:hover{
+  background-color: black;
+  cursor: pointer;
+
 }
