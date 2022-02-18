@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: "speedee", sans-serif;
+    font-family:'Merriweather Sans', sans-serif;
     cursor: url("https://mcdindia.com/wp-content/uploads/2020/11/mc-cursor-2.png"),auto
 }
 .bg-yellow{
@@ -48,9 +49,9 @@ header{
 }
 
 .leftToBurger{
+  display: inline-block;
     height: 100vh;
     width: 50vw;
-    display: inline-block;
     float: left;
 
 }
@@ -66,6 +67,7 @@ header{
 .col-red{
   color: transparent;
   -webkit-text-stroke: 1.4px #e21f03;
+  
 }
 
 .imageDiv{
@@ -110,9 +112,6 @@ header{
     background-color: red;
     height: 3;
     width: 6;
-}
-.arrow{
-
 }
 
 #sec2{
@@ -356,15 +355,27 @@ margin-top: 170px;
 
 #sec6{
   height: 100vh;
+  display: flex;
+  background-image: url("mc-delivery.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 53em;
 }
 .sec6-div1{
-  margin-top: 100px;
-  margin-left: 55px;
+  background-color: white;
+  margin-top: 80px;
+  padding-top: 150px;
+  width: 50vw;
+  height: 72vh;
+
 }
+
 #sec6 p{
   margin-left: 100px;
 margin-top: 20px;
 width: 550px;
+
+/* background-image: url("mc-delivery.jpg"); */
 }
 .imgdiv{
   margin-bottom: 20px;
@@ -390,10 +401,174 @@ font-weight: bold;
 font-size: 15px;
 color: white;
 margin-left: 95px;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 .sec6-btn:hover{
   background-color: black;
   cursor: pointer;
 
+}
+.sec6-img{
+  height: 100vh;
+  width: 70vw;
+  
+}
+
+#sec7{
+  height: 200vh;
+  position: relative;
+  z-index: -1;
+}
+#sec7 > h1{
+  margin-left: 125px;
+  margin-bottom: 85px;
+  font-size: 52px;
+
+}
+.upper-sec7{
+  height: 100vh;
+  display: flex;
+  
+
+}
+.burger-image{
+  height: 66vh;
+  width: 50vw;
+  background-image: url("https://mcdindia.com/wp-content/uploads/2019/12/pattern-2.jpg");
+  padding-top: 6rem;
+  padding-left: 10rem;
+  margin-left: 125px;
+
+}
+.text-content{
+  height: 43vh;
+  width: 25vw;
+  padding: 4rem;
+  background-color: #ebebec;
+  position: absolute;
+  top:0;
+  right: 0;
+  margin-right: 150px;
+  margin-top: 220px;
+}
+
+.text-content > h2{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.text-content > p{
+  margin-bottom: 15px;
+}
+
+.text-content > a{
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.lower-sec7{
+  height: 100vh;
+  display: flex;
+  gap: 2rem;
+  /* margin-left: 8rem; */
+  justify-content: center;
+
+}
+
+.cards-person{
+  
+  height: 27rem;
+  width: 18rem;
+  
+
+}
+
+
+.cards-person h6 a{
+  text-decoration: none;
+}
+.cards-person > p{
+  margin:20px;
+}
+
+.newsBox{
+  width: 100px;
+  background-color: #db0007;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.news{
+  height: 465px;
+  width: 325px;
+  /* border: 2px solid red; */
+}
+.news > div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#sec8{
+  display: flex;
+  height: 100vh;
+}
+
+.sec8-contents{
+  
+
+}
+.sec8-heading{
+  margin-top: 5rem;
+  margin-left: 10rem;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sec8-heading + p{
+  margin-left: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.input{
+  margin-left: 10rem;
+  height: 4rem;
+  width: 24rem;
+  font-size: 30px;
+  border-radius: 30px;
+  padding-left: 10px;
+  /* border: none; */
+}
+
+.inputbtn{
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  height: 4rem;
+  width: 14rem;
+  border-radius: 30px;
+  margin-left: 5rem;
+  
+}
+
+.reference{
+  display: flex;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+.reference p{
+  margin-left: 10rem;
+  font-size: 25px;
+}
+.reference div img{
+  width: 40px;
+}
+
+footer{
+  text-align: center;
 }
